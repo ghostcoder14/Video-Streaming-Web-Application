@@ -4,7 +4,6 @@
   "description": "Video Streaming web application similar  to YouTube.",
   "main": "index.js",
   "scripts": {
-   
     "dev": "npm run dev"
   },
   "keywords": [
@@ -15,5 +14,8 @@
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "prettier": "^3.2.5"
   }
 }
