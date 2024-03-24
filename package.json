@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Video Streaming web application similar  to YouTube.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "dev": "npm run dev"
+    "dev": "nodemon -r dotenv/config --experimental-json-modules  ./src/index"
   },
   "keywords": [
     "js",
@@ -16,6 +17,9 @@
     "nodemon": "^3.1.0"
   },
   "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.1",
+    "mongoose": "^8.2.3",
     "prettier": "^3.2.5"
   }
 }
