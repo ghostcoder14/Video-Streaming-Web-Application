@@ -1,15 +1,19 @@
 {
   "name": "project",
   "version": "1.0.0",
-  "description": "",
+  "description": "Video Streaming web application similar  to YouTube.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+   
+    "dev": "npm run dev"
   },
   "keywords": [
     "js",
     "backend"
   ],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
 }
